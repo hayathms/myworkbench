@@ -1,0 +1,6 @@
+export SERVER_URL=0.0.0.0:8000
+export RUST_LOG="debug"
+export SERVICE_NAME="fv-${USER}"
+export SERVICE_IMAGE="fv-image-${USER}"
+export NETWORK_NAME="ocean"
+export PROJECT_PWD=$PWD
