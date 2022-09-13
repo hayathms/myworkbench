@@ -4,3 +4,5 @@ export SERVICE_NAME="myworkbench-${USER}"
 export SERVICE_IMAGE="myworkbench-image-${USER}"
 export NETWORK_NAME="ocean"
 export PROJECT_PWD=$PWD
+
+export PORT_ADDRESS="-p 9001:8000"
